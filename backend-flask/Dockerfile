@@ -19,4 +19,6 @@ EXPOSE ${PORT}
 # docker-compose up
 # To stsrt psql
 # psql -Upostgres --host localhost
+#  to install all dependancies mentioned in requirement.txt
+# pip install -r requirements.txtgit
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
